@@ -90,6 +90,12 @@ button{
 button:active {
     transform: translateY(1px);
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 .btn {
     background-color: #7342d6;
     color: white;
@@ -115,6 +121,9 @@ button:active {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+.no__cursor{
+    cursor: not-allowed;
 }
 /* ----------------------highlights-------------------------- */
 
@@ -218,3 +227,36 @@ flex-wrap: wrap;
 }
 
 /* ------------------------footer--------------------- */
+#footer{
+    background-color: black;
+    color: white;
+
+}
+.footer__logo{
+    display: flex;
+}
+.footer__logo--img{
+    padding: 16px;
+    width: 160px;
+    filter: grayscale(1) invert(1);
+}
+.footer__link, 
+.copyright{
+        color: white;
+        
+ }
+ .row__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__list{
+    margin-bottom: 24px;
+
+}
+.footer__link{
+    padding: 0 8px;
+}
+.copyright{
+    padding-bottom: 24px;
+}
